@@ -316,6 +316,15 @@ button:hover::before{
 	}
 }
 
+@media (max-width: 350px) {
+	.wrapper{
+		min-width: 335px;
+		left: 10px;
+		position: absolute;
+	}
+
+}
+
 @media print {
 	.badge::before{
 		content: "";
